@@ -1,0 +1,14 @@
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\bin\Debug\XSLTTester.exe
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\bin\Debug\XSLTTester.pdb
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.Forms.About.resources
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.MainForm.resources
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.Forms.XSLTResults.resources
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.Properties.Resources.resources
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.csproj.GenerateResource.Cache
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.exe
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.pdb
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\bin\Debug\XSLTTester.exe.manifest
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\bin\Debug\XSLTTester.application
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.exe.manifest
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.application
+F:\Dev\VS2013_CSharp_Projects\XSLTTester_Source\XSLTTester\obj\Debug\XSLTTester.csprojResolveAssemblyReference.cache
