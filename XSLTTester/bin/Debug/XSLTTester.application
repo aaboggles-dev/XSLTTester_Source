@@ -8,17 +8,17 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="file://dellxps/VS2013_CSharp_Installers/XSLTTester.application" />
+    <deploymentProvider codebase="file:///F:/Dev/VS2015_CSharp_Projects/XSLTTester_Source/XSLTTester/publish/XSLTTester.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="XSLTTester.exe.manifest" size="3515">
+    <dependentAssembly dependencyType="install" codebase="XSLTTester.exe.manifest" size="4181">
       <assemblyIdentity name="XSLTTester.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="en-US" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fVpk42p1TlFQzcXnMkUhgkpCNic=</dsig:DigestValue>
+        <dsig:DigestValue>Imo1wAIqAv6dCrNpg8pBKwMcaOI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -62,9 +62,12 @@ namespace XSLTTester
 
 					GetXmlAndXSLT(out xml, out xslt);
 
-					string result = XSLTTransform.Transform(xml, xslt);
+                    //XSLTResults formbefore = new XSLTResults(xml);
+                    //formbefore.Show();
 
-					XSLTResults form = new XSLTResults(result);
+                    string result = XSLTTransform.Transform(xml, xslt);
+
+					XSLTResults form = new XSLTResults(result, "XSLT Results (Output XML)");
 					form.Show();
 
 					this.Cursor = Cursors.Default;
@@ -148,5 +151,38 @@ namespace XSLTTester
 			About form = new About();
 			form.ShowDialog();
 		}
-	}
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Cursor = Cursors.WaitCursor;
+
+                if (ValidateInput())
+                {
+                    string xml, xslt;
+
+                    GetXmlAndXSLT(out xml, out xslt);
+
+                    XSLTResults formbefore = new XSLTResults(xml,"Input XML");
+                    formbefore.Show();
+
+                    //string result = XSLTTransform.Transform(xml, xslt);
+
+                    //XSLTResults form = new XSLTResults(result);
+                    //form.Show();
+
+                    this.Cursor = Cursors.Default;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Exception caught : " + ex.ToString(), "XSLT Tester", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                this.Cursor = Cursors.Default;
+            }
+        }
+    }
 }

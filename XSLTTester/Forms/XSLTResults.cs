@@ -10,11 +10,13 @@ namespace XSLTTester.Forms
 {
 	public partial class XSLTResults : Form
 	{
-		public XSLTResults(string result_)
+		public XSLTResults(string result_, string caption_)
 		{
 			InitializeComponent();
 
-			FillForm(result_);
+            Text = caption_;
+
+            FillForm(result_);
 		}
 
 		private void FillForm(string result_)
