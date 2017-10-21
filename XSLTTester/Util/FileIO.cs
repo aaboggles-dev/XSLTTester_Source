@@ -2,6 +2,9 @@ using System;
 using System.IO;
 using System.Net;
 
+/// <summary>
+/// Folder\File IO class
+/// </summary>
 namespace XSLTTester.Util
 {	
 	public class FileIO

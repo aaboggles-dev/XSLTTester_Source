@@ -36,6 +36,7 @@ namespace XSLTTester
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnTest = new System.Windows.Forms.Button();
             this.xmlOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
@@ -51,7 +52,6 @@ namespace XSLTTester
             this.btnOpenXSLTFile = new System.Windows.Forms.Button();
             this.cbLoadXSLTFromFile = new System.Windows.Forms.CheckBox();
             this.xsltOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
@@ -112,6 +112,16 @@ namespace XSLTTester
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(641, 24);
             this.panel1.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, -1);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(106, 25);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "View Input XML";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnTest
             // 
@@ -266,16 +276,6 @@ namespace XSLTTester
             // xsltOpenFileDialog
             // 
             this.xsltOpenFileDialog.Filter = "XSLT Files|*.xslt|XSL Files|*.xsl|All files|*.*";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, -1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 25);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "View Input XML";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
