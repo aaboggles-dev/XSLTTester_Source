@@ -1,0 +1,2 @@
+F:\Dev\GIT_Repositories\XSLTTester_Source\XSLTTester\obj\Release\XSLTTester.exe
+F:\Dev\GIT_Repositories\XSLTTester_Source\XSLTTester\obj\Release\XSLTTester.pdb
