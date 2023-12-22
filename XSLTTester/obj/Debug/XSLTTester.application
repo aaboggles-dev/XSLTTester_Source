@@ -11,14 +11,14 @@
     <deploymentProvider codebase="file:///F:/Dev/VS2015_CSharp_Projects/XSLTTester_Source/XSLTTester/publish/XSLTTester.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="XSLTTester.exe.manifest" size="4181">
+    <dependentAssembly dependencyType="install" codebase="XSLTTester.exe.manifest" size="4179">
       <assemblyIdentity name="XSLTTester.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="en-US" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Imo1wAIqAv6dCrNpg8pBKwMcaOI=</dsig:DigestValue>
+        <dsig:DigestValue>InF+VKcbj40vBSc2VpMAZD+U59M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
